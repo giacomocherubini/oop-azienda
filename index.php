@@ -2,9 +2,8 @@
 
 require "Contabile.php";
 
-$contabile1 = new Contabile();
-$contabile1->nome = 'Giovanni';
-$contabile1->cognome = 'Rossi';
+$contabile1 = new Contabile('Giovanni', 'Rossi');
+$contabile1->eta = '32';
 
 
 $contabile1->setMatricola('1668');
